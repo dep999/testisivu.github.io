@@ -1,0 +1,518 @@
+
+
+/*EI MOBIILI*/
+@media (min-width: 767px) {
+    header {
+        background-color: #ccbf09;
+        z-index: 3;
+        width: 100%;
+        height: 10vh;
+        margin: 0;
+        position: fixed;
+        display: flex;
+    
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      
+    html{
+    
+        min-height: 100vh;
+        min-width: 100vw;
+    
+    }
+    
+    body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            min-width: 100vw;
+            overflow-x: hidden;
+    }
+    
+    
+    main {
+        
+        min-height: 100vh;
+        min-width: 100vw;
+       
+    }
+    
+
+    .text-container {
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        color: #fff;
+        position: absolute;
+        top: 30vh;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+      }
+
+    
+    
+    /*footer*/
+    
+    .footer {
+        background-color: #110f0f; /* background color */
+        color: #fff; /* text color */ 
+        bottom: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: center; /* Center the sections horizontally */
+        gap: 10vw; /* Adjust the gap between sections */
+        padding-bottom: 1vw;
+        
+    }
+    
+    
+    /*voi muokata footerin tietojen paikkaa*/
+    .footer_container {
+    
+        display: flex;
+        align-items: center;
+        height: 40px;
+        
+       
+        }
+    
+    
+    /* footer tiedot */
+    .footer p {
+        font-weight: bold;
+        
+    }
+    
+    /* footerin linkit */
+    .footer a {
+        color: #fff; /* White link color */
+        text-decoration: none;
+        
+    }
+    
+    /* otsikot */
+    .footer_heading {
+        font-weight: bold;
+        padding: 16px 0;
+        font-size: x-large;
+        
+    }
+    
+    .footer_container {
+    
+        display: flex;
+        align-items: center;
+        }
+    
+    
+    
+    .footer_container img{
+    
+        width: 16px;
+        height: 16px;
+        padding-right: 10px;
+        
+    }
+    
+}
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /*MOBIILI*/
+   
+    @media (max-width: 767px) {
+    
+    
+        header {
+            top: 0;
+            z-index: 2;
+            width: 100vw;
+            height: 100px;
+            margin: 0;
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            
+            
+          }
+        
+        .Logo {
+          width: 30%;
+          position: absolute;
+          left: 5px;
+          }
+        
+        .Logo img {
+            max-height: 90px;
+          }
+
+          .nav_hidden {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0s 0.3s;
+          }
+          
+          .nav_visible {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.3s ease, visibility 0s;
+          }
+
+        
+          .nav_button {
+            z-index: 4;
+            position: absolute;
+            right: 10px;
+          }
+
+
+          .nav_styles {
+            z-index: 3;
+            width: 100vw;
+            height: 20vh;
+            position: fixed;
+            background-color: white;
+            padding-bottom: 10px;
+          }
+
+          .nav_styles_content{
+
+           width: 100%;
+           height: 100%;
+           
+          }
+
+          .nav_styles_content_link {
+            display: flex;
+            justify-content: flex-end; /* To move the links to the right */
+            align-items: center; /* To vertically center the links */
+            padding-right: 10px;
+            padding-bottom: 20px;
+            
+
+          }
+
+          .nav_styles_content_link a{
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            
+          }
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+      
+    html{
+        
+        font-family: 'Times New Roman', Times, serif;
+        min-height: 100vh;
+        min-width: 100vw;
+        overflow-x: hidden;
+    }
+    
+    body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            min-width: 100vw;
+            overflow-x: hidden;
+    }
+    
+    
+    main {
+        
+        min-height: 100vh;
+        min-width: 100vw;
+       
+    }
+    
+
+    .frontpage_text_container {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        color:rgb(255, 255, 255);
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+      }
+
+
+
+      .frontpage_background_image_container {
+        margin-top: 100px;
+        height: 85vh;
+        width: 100vw;
+        overflow: hidden; /* Ensures that the image doesn't overflow the container */
+      }
+      
+      .frontpage_background_image {
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/img6.jpg');
+        background-size: cover; /* Maintains aspect ratio and covers the entire container */
+        background-position: center ; /* Center the image both horizontally and vertically */
+        filter: brightness(0.7);
+      }
+
+
+      .frontpage_info_container{
+
+
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+
+      }
+
+
+      .frontpage_info_container h2{
+
+        padding-left: 20px;
+
+      }
+
+      .frontpage_info_container p{
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+      }
+
+
+      .info_container_image{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        justify-content: center;
+        display: flex;
+      }
+
+      .info_container_image img{
+        border-radius: 1%;
+        width: 80%;
+        height: 80%;
+        background-size: cover; 
+        background-position: center ;
+        filter: brightness(0.7);
+
+      }
+
+
+
+      .frontpage_services_container {
+
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 30px;
+
+      }
+
+
+      .frontpage_services_container h2{
+
+        padding-left: 20px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+
+      }
+
+      .frontpage_services_container p{
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+      }
+
+
+
+      
+
+
+
+    
+    /*footer*/
+
+    .footer {
+        background-color: #110f0f; /* background color */
+        color: #fff; /* text color */ 
+        bottom: 0;
+        width: 100vw;
+        padding-bottom: 1vw;
+    }
+
+    .footer_section{
+
+
+        padding-bottom: 20px;
+
+
+    }
+
+
+    .footer_logo{
+        
+        height: 100px; /* Allow the height to adjust proportionally */
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+    .footer_logo img{
+        padding-left: 30px;
+        
+        height: 100%;
+        width: auto;
+    }
+    
+    
+    /*voi muokata footerin tietojen paikkaa*/
+    .footer_container {
+        
+        margin-left: 10px;
+        margin-right: 10px;
+
+        }
+    
+    
+    /* footer tiedot */
+    .footer p {
+        font-weight: bold;
+        margin: 10px;
+        
+    }
+    
+    /* footerin linkit */
+    .footer a {
+        color: #fff; /* White link color */
+        text-decoration: none;
+        
+    }
+    
+    /* otsikot */
+    .footer_heading {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        
+        font-weight: bold;
+        font-size: x-large;
+        
+    }
+    
+    .footer_container {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        margin-left: 15px;
+        margin-right: 0;
+        }
+
+
+        .footer_container p{
+           margin: 0px;
+           margin-top: 5px;
+           margin-bottom: 5px;
+            }
+    
+    
+    
+    .footer_container img{
+    
+        width: 16px;
+        height: 16px;
+        padding-right: 10px;
+        
+    }
+
+    .phone_number_color a{
+
+        color: green;
+
+    }
+    
+    
+
+}
+    
+    
+    

@@ -1,0 +1,34 @@
+User
+i got 4032 x 3032 image that i want to display in 400x900 screen. i want the image look as good as it can (doesnt matter if full image is not showing on screen, but the middle of the image needs to be visible).  with my current code the images top left corner is only visible in the screen. here is my current code.       .frontpage_background_image_container{
+        height: 80vh;
+        width: 100vw;
+      }
+
+      .frontpage_background_image{
+        height: 100%;
+        width: 100%;
+        background-image: url('../images/img6.jpg');
+        object-fit: cover;
+        filter: brightness(0.8);
+      }
+
+
+
+
+.frontpage_background_image_container {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensures that the image doesn't overflow the container */
+}
+
+.frontpage_background_image {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/img6.jpg');
+  background-size: cover; /* Maintains aspect ratio and covers the entire container */
+  background-position: center center; /* Center the image both horizontally and vertically */
+  filter: brightness(0.8);
+}
