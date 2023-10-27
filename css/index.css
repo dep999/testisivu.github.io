@@ -320,7 +320,7 @@
         padding-top: 30px;
       }
 
-      .frontpage_text_container_number {
+      .frontpage_text_container_number a {
         color:yellow;
         text-decoration: none;
       }
