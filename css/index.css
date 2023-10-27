@@ -234,14 +234,13 @@
           .nav_styles {
             z-index: 3;
             width: 100vw;
-            height: 20vh;
+            height: 180px;
             position: fixed;
             background-color: white;
             padding-bottom: 10px;
           }
 
           .nav_styles_content{
-          margin-bottom: 100px;
            width: 100%;
            height: 100%;
            
@@ -251,19 +250,15 @@
             display: flex;
             justify-content: flex-end; /* To move the links to the right */
             align-items: center; /* To vertically center the links */
-            padding-right: 10px;
+            padding-right: 30px;
             padding-bottom: 20px;
-            font-size: 20px;
+            font-size: 23px;
             color: rgb(0, 0, 0);
             text-decoration: none;
             
 
           }
 
-          .nav_styles_content_lin{
-            
-            
-          }
 
 
 
