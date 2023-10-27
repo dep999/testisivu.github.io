@@ -190,15 +190,13 @@
             top: 0;
             z-index: 2;
             width: 100vw;
-            height: 100px;
+            height: 100px; /* also change space_for_nav*/
             margin: 0;
             position: fixed;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #fff;
-            
-            
+            background-color: white;
           }
         
         .Logo {
@@ -225,6 +223,8 @@
 
         
           .nav_button {
+            background-color: white;
+            border: 0 ;
             z-index: 4;
             position: absolute;
             right: 10px;
@@ -241,7 +241,7 @@
           }
 
           .nav_styles_content{
-
+          margin-bottom: 100px;
            width: 100%;
            height: 100%;
            
@@ -313,12 +313,25 @@
         left: 50%;
         transform: translateX(-50%);
         z-index: 1;
+        
+      }
+
+      .frontpage_text_container_text {
+        padding-top: 30px;
+      }
+
+      .frontpage_text_container_number {
+        color:yellow;
+        text-decoration: none;
+      }
+
+      .space_for_nav_and_header{
+        margin-bottom: 100px; /* also change header*/
+
       }
 
 
-
       .frontpage_background_image_container {
-        margin-top: 100px;
         height: 85vh;
         width: 100vw;
         overflow: hidden; /* Ensures that the image doesn't overflow the container */
@@ -373,7 +386,7 @@
         height: 80%;
         background-size: cover; 
         background-position: center ;
-        filter: brightness(0.7);
+        filter: brightness(0.9);
 
       }
 
@@ -506,12 +519,10 @@
 
     .phone_number_color a{
 
-        color: green;
+        color: yellow;
 
     }
-    
-    
-
+  
 }
     
     
