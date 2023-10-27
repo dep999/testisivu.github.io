@@ -253,14 +253,15 @@
             align-items: center; /* To vertically center the links */
             padding-right: 10px;
             padding-bottom: 20px;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
             
 
           }
 
-          .nav_styles_content_link a{
-            font-size: 20px;
-            color: rgb(0, 0, 0);
-            text-decoration: none;
+          .nav_styles_content_lin{
+            
             
           }
 
