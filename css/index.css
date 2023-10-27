@@ -321,8 +321,8 @@
       }
 
       .frontpage_text_container_number {
-        color:yellow !important;
-        text-decoration: none !important;
+        color:yellow;
+        text-decoration: none;
       }
 
       .space_for_nav_and_header{
