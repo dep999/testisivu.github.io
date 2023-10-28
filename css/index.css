@@ -187,7 +187,7 @@
     
     
         header {
-            top: 0;
+            
             z-index: 2;
             width: 100vw;
             height: 100px; /* also change space_for_nav*/
@@ -197,6 +197,7 @@
             justify-content: center;
             align-items: center;
             background-color: white;
+            
           }
         
         .Logo {
@@ -238,7 +239,6 @@
             position: fixed;
             background-color: white;
             padding-bottom: 10px;
-            padding-top: 10px;
           }
 
           .nav_styles_content{
@@ -323,8 +323,9 @@
       }
 
       .space_for_nav_and_header{
-        margin-bottom: 100px; /* also change header*/
-
+        margin-bottom: 95px; /* also change header*/
+        background-color: white;
+        margin-top: 30px;
       }
 
 
