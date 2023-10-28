@@ -238,6 +238,7 @@
             position: fixed;
             background-color: white;
             padding-bottom: 10px;
+            padding-top: 10px;
           }
 
           .nav_styles_content{
