@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/kalusto.css">
+    <link rel="stylesheet" href="css/yhteydenotto.css">
     <title>Etusivu - RTF Louhinta</title>
     <link rel="icon" type="image/png" href="images/img8.png"/>
 
@@ -36,24 +36,37 @@
       <div class="space_for_nav_and_header"></div>
 
 
-    <div class="stockpage_image_container">
-        <div class="stockpage_image_textbox">
-            <h1>Atlas Copco D7C</h1>
-        </div>
-      <div class="stockpage_image"></div>
+      <div class="contactpage_text_container">
+        <div class="contactpage_text_container_text">Ota yhteyttä</div>
     </div>
 
+    <div class="contactpage_background_image_container">
+      <div class="contactpage_background_image">
+      </div>
+    </div>
 
-        
+    <div class="contact_form_container">
     
+      <form action="/scripts/mail.php" method="POST">
+          <label for="name">Nimi*:</label>
+          <input type="text" id="name" name="name" required>
+  
+          <label for="email">Sähköposti*:</label>
+          <input type="email" id="email" name="email" required>
 
+          <label for="phone">Puhelinnumero*:</label>
+          <input type="tel" id="phone" name="phone" required>
 
-        <div class="stockpage_services_container">
-          <h2>Lisäosat</h2>
-          <h3>GNSS 3D hole navigation</h3>
-          <h3>L5 Navigation 3DDRILL</h3>
+          <label for="company">Yritys:</label>
+          <input type="text" id="company" name="company">
+  
+          <label for="text">Viesti*:</label>
+          <textarea id="text" name="text" required></textarea>
 
-        </div>
+          <input type="submit" value="Lähetä">
+      </form>
+      </div>
+
     </main>
 
     <div class="footer">
@@ -84,6 +97,6 @@
 
 
         <script src="scripts/navbar.js"></script>
-
+        <script src="scripts/popup.js"></script>
 
 </html>
