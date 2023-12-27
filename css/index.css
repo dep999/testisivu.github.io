@@ -142,7 +142,7 @@ main {
 
 
   .frontpage_background_image_container {
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
     overflow: hidden; /* Ensures that the image doesn't overflow the container */
   }
@@ -207,7 +207,7 @@ main {
   .frontpage_services_container p{
 
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 80vw;
 
   }
 
