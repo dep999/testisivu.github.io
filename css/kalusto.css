@@ -5,10 +5,33 @@
 
 
 
+      .stock_image_container{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      .stock_image{
+
+        width: 512px;
+        height: 384px;
+
+        background-image: url('../images/img7.jpg');
+        background-size: cover; /* Maintains aspect ratio and covers the entire container */
+        background-position: center ; /* Center the image both horizontally and vertically */
+        filter: brightness(1);
+        border-radius: 2%;
+
+    }
+
+
+
 
     
       .stockpage_image_container {
-        height: 80vh;
+        height: 30vh;
         width: 100vw;
         overflow: hidden; /* Ensures that the image doesn't overflow the container */
         position: relative;
@@ -17,11 +40,12 @@
       .stockpage_image {
         width: 100%;
         height: 100%;
-        background-image: url('../images/img7.jpg');
+        background-image: url('../images/TRICON.jpg');
         background-size: cover; /* Maintains aspect ratio and covers the entire container */
         background-position: center ; /* Center the image both horizontally and vertically */
         filter: brightness(1);
         z-index: 0;
+
 
       }
 
@@ -44,13 +68,17 @@
         
       }
 
+.stockpage_wrapper{
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
       
   .stocktpage_services_container {
-
-    width: 100%;
     padding-top: 0px;
     padding-bottom: 30px;
+
 
   }
 
