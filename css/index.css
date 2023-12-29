@@ -5,6 +5,42 @@
 
 
 
+
+
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.8); /* Adjust the alpha value for transparency */
+    color: #fff;
+    text-align: center;
+    padding: 15px; /* Increased padding for better spacing */
+    display: none;
+    z-index: 1000;
+  }
+
+  .cookie-banner p {
+    margin: 0; /* Remove default margin for better spacing */
+    line-height: 1.4; /* Adjust line height for better readability */
+  }
+
+  .cookie-banner a {
+    color: #4CAF50;
+    text-decoration: underline; /* Add underline for link emphasis */
+  }
+
+  .cookie-banner button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px; /* Adjust padding for better button size */
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+
   .no_desktop{
 
     display: none;
@@ -188,8 +224,8 @@ main {
 
   .frontpage_info_container p{
     font-size: 16px;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
 
   }
 
@@ -197,7 +233,7 @@ main {
   .frontpage_services_container {
     width: 100%;
     padding-top: 0px;
-    
+    display: flex;
 
   }
 
@@ -213,13 +249,35 @@ main {
   .frontpage_services_container p{
     font-size: 16px;
     padding-left: 20px;
-    padding-right: 80vw;
+  }
+
+  .frontpage_services_container_wrapper{
+
+    width: 50%;
+
+  }
+
+  .frontpage_services_container_image{
+
+    width: 50%;
 
   }
 
 
 
-  
+  .contact_image{
+
+    width: 60%;
+    height: 80%;
+    margin-left: 10vw;
+
+    background-image: url('../images/img12.jpg');
+    background-size: cover; /* Maintains aspect ratio and covers the entire container */
+    background-position: center ; /* Center the image both horizontally and vertically */
+    filter: brightness(1);
+    border-radius: 2%;
+
+}
 
 
 
@@ -392,6 +450,42 @@ main {
     /*MOBIILI*/
    
     @media (max-width: 767px) {
+
+
+
+
+      .cookie-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: calc(100% - 30px); /* Adjusted width to accommodate padding on both sides */
+        background-color: rgba(51, 51, 51, 0.9); /* Adjust the alpha value for transparency */
+        color: #fff;
+        text-align: center;
+        padding: 15px; /* Increased padding for better spacing */
+        display: none;
+        z-index: 1000;
+      }
+    
+      .cookie-banner p {
+        margin: 0; /* Remove default margin for better spacing */
+        line-height: 1.4; /* Adjust line height for better readability */
+      }
+    
+      .cookie-banner a {
+        color: #4CAF50;
+        text-decoration: underline; /* Add underline for link emphasis */
+      }
+    
+      .cookie-banner button {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px; /* Adjust padding for better button size */
+        border: none;
+        cursor: pointer;
+      }
+
+      
 
 
     

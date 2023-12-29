@@ -5,6 +5,46 @@
 
 
 
+
+
+
+      .stockpage_text_container {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        color:rgb(255, 255, 255);
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+        ;
+      }
+      
+      .stockpage_text_container_text {
+        padding-top: 40px;
+        
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       .stock_image_container{
         margin-top: 50px;
         display: flex;
