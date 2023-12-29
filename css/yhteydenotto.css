@@ -3,6 +3,23 @@
     @media (min-width: 767px) {
 
 
+        .success-message {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        
+        .error-message {
+            background-color: #f44336; /* Red */
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        
+
 
 
 
@@ -176,6 +193,26 @@
 /*MOBIILI*/
    
     @media (max-width: 767px) {
+
+
+
+
+        .success-message {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        
+        .error-message {
+            background-color: #f44336; /* Red */
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        
 
 
 
