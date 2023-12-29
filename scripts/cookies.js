@@ -6,13 +6,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function showCookieBanner() {
     var banner = document.getElementById("cookieBanner");
-    banner.style.display = "block";
+    if (banner) {
+        banner.style.display = "block";
+    }
 }
 
 function acceptCookies() {
     var banner = document.getElementById("cookieBanner");
-    banner.style.display = "none";
-    setCookie("cookiesAccepted", true, 365);
+    if (banner) {
+        banner.style.display = "none";
+        setCookie("cookiesAccepted", true, 365);
+    }
 }
 
 function setCookie(name, value, days) {
@@ -29,7 +33,7 @@ function getCookie(name) {
     var nameEQ = name + "=";
     var ca = document.cookie.split(';');
     for (var i = 0; i < ca.length; i++) {
-        var c = ca[i];
+        var c = ca[i].trim();  // Trim leading and trailing whitespaces
         while (c.charAt(0) == ' ') c = c.substring(1, c.length);
         if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
     }
