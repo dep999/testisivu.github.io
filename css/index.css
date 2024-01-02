@@ -1,7 +1,7 @@
 
 
 /*Desktop*/
-@media (min-width: 767px) {
+@media (min-width: 1220px) {
 
 
 
@@ -192,9 +192,9 @@ main {
   .frontpage_background_image {
     width: 100%;
     height: 100%;
-    background-image: url('../images/img6.jpg');
-    background-size: cover; /* Maintains aspect ratio and covers the entire container */
-    background-position: center ; /* Center the image both horizontally and vertically */
+    background-image: url('../images/img6.1.jpg');
+    background-size: cover; 
+    background-position: center ; 
     filter: brightness(0.7);
   }
 
@@ -203,57 +203,32 @@ main {
 
 
 
-
-
-
-  .frontpage_info_container{
-    width: 100%;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-
-  .frontpage_info_container h2{
-    font-size: 25px;
-    padding-left: 10vw;
-    padding-right: 10vw;
-  }
-
-  .frontpage_info_container p{
-    font-size: 16px;
-    padding-left: 20vw;
-    padding-right: 20vw;
-
-  }
-
-
   .frontpage_services_container {
     width: 100%;
-    padding-top: 0px;
+    padding-top: 70px;
     display: flex;
 
   }
-
-
-  .frontpage_services_container h2{
+  .frontpage_services_container ul{
     font-size: 24px;
-    padding-left: 20px;
-    margin-top: 50px;
-    margin-bottom: 15px;
+    padding-left: 24vw;
+    margin-bottom: 25px;
 
-  }
-
-  .frontpage_services_container p{
-    font-size: 16px;
-    padding-left: 20px;
   }
 
   .frontpage_services_container_wrapper{
 
     width: 50%;
+    margin-bottom: 50px;
+
+  }
+
+  
+  .frontpage_services_container_wrapper p{
+    font-size: 25px;
+    padding-left: 22vw;
+    max-width: 400px;
+    margin-top: 30px;
 
   }
 
@@ -267,11 +242,12 @@ main {
 
   .contact_image{
 
-    width: 60%;
-    height: 80%;
+    width: 50%;
+    min-height: 512px;
     margin-left: 10vw;
+    margin-bottom: 50px;
 
-    background-image: url('../images/img12.jpg');
+    background-image: url('../images/img4.jpg');
     background-size: cover; /* Maintains aspect ratio and covers the entire container */
     background-position: center ; /* Center the image both horizontally and vertically */
     filter: brightness(1);
@@ -403,10 +379,121 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     /*MOBIILI*/
    
-    @media (max-width: 767px) {
+    @media (max-width: 1220px) {
 
 
 
@@ -415,29 +502,29 @@ main {
         position: fixed;
         bottom: 0;
         left: 0;
-        width: calc(100% - 30px); /* Adjusted width to accommodate padding on both sides */
-        background-color: rgba(51, 51, 51, 0.9); /* Adjust the alpha value for transparency */
+        width: calc(100% - 30px); 
+        background-color: rgba(51, 51, 51, 0.9); 
         color: #fff;
         text-align: center;
-        padding: 15px; /* Increased padding for better spacing */
+        padding: 15px; 
         display: none;
         z-index: 1000;
       }
     
       .cookie-banner p {
-        margin: 0; /* Remove default margin for better spacing */
-        line-height: 1.4; /* Adjust line height for better readability */
+        margin: 0; 
+        line-height: 1.4; 
       }
     
       .cookie-banner a {
         color: #4CAF50;
-        text-decoration: underline; /* Add underline for link emphasis */
+        text-decoration: underline; 
       }
     
       .cookie-banner button {
         background-color: #4CAF50;
         color: #fff;
-        padding: 10px 20px; /* Adjust padding for better button size */
+        padding: 10px 20px; 
         border: none;
         cursor: pointer;
       }
@@ -613,29 +700,7 @@ main {
       }
 
 
-      .frontpage_info_container{
 
-
-        width: 100%;
-        padding-top: 30px;
-        padding-bottom: 30px;
-
-
-      }
-
-
-      .frontpage_info_container h2{
-        
-        padding-left: 20px;
-
-      }
-
-      .frontpage_info_container p{
-
-        padding-left: 20px;
-        padding-right: 20px;
-
-      }
 
 
       .info_container_image_mobile{
@@ -658,30 +723,31 @@ main {
 
 
 
-      .frontpage_services_container {
-
-        width: 100%;
-        padding-top: 0px;
-        padding-bottom: 30px;
-
-      }
 
 
-      .frontpage_services_container h2{
+      
 
-        padding-left: 20px;
-        margin-top: 50px;
+
+      .frontpage_services_container_wrapper p{
+        font-size: 25px;
+
         margin-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
 
-      }
+        }
 
-      .frontpage_services_container p{
 
-        padding-left: 20px;
-        padding-right: 20px;
+        
+      .frontpage_services_container_wrapper li{
+        font-family: sans-serif;
 
-      }
+        padding-bottom: 5px;
 
+        }
+
+
+        
 
 
       
